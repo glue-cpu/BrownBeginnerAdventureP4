@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
 {
     public InputAction LeftAction;
     public InputAction MoveAction;
+    Rigidbody2D rigidbody2d;
+    Vector2 move;
 }
 
 public class PlayerControl : MonoBehaviour
@@ -14,8 +16,8 @@ public class PlayerControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //QualitySettings.vSyncCount = 0;
-        //Application.targetFrameRate = 900;
+        //rigidbody2d = GetComponent<Rigidbody2D>();
+        //above, this is you left off.
         LeftAction.Enable();
         MoveAction.Enable();
     }
