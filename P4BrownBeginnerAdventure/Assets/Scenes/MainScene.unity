@@ -357,6 +357,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7809f445b25c0f40b5cd94137a39be3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 5
+  speed: 7
   LeftAction:
     m_Name: Left
     m_Type: 1
